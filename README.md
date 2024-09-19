@@ -8,9 +8,7 @@ a = ("")  # Variable 'a' es una cadena vacía
 b = ("TITULO")  # Variable 'b' contiene el título
 c = ("cuerpo del texto")  # Variable 'c' contiene el cuerpo del texto
 
-# Imprime el título y la cadena vacía antes y después
-print(a, b, a)  # Salida: " TITULO " (con espacios alrededor)
-
-# Imprime el cuerpo del texto y la cadena vacía antes y después
-print(a, c, a)  # Salida: " cuerpo del texto " (con espacios alrededor)
-![image](https://github.com/user-attachments/assets/b254793d-da8a-4609-8cc6-5b4e8c338bea)
+# Imprimir el título y el cuerpo con un espacio entre ellos
+print(a, b, a,"\n")  # Salida: " TITULO "
+print(a, c, a,"\n")  # Salida: " cuerpo del texto "
+![image](https://github.com/user-attachments/assets/7826e6b0-e959-47c8-8a8d-6a0db5a89b31)
